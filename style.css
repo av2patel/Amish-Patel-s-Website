@@ -209,36 +209,42 @@ footer ul li a:hover{
 #mainAbMeSection{
 	background: white;
 	margin: 0px 3% 3% 3%;
+	padding-top: 5px;
 	border-radius:5px;
 	text-align: center;
-
+	
 }
 
-#mainAbMeSection img{
+#container img{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+#container{
 	border: 5px solid #009;
 	width: 40%;
 	height: auto;
 	margin: 2%;
+	margin-left: 5%;
 	float: left;
 	border-radius: 10px;
+	text-align: center;
+	color: #656565;
 	
 }
 
-#mainAbMeSection h1{
-	font-family: 'Oleo Script','Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-weight: bold;
-	color: #11F;
-	font-size: 3.5em;
-}
+
 
 #mainAbMeSection p{
 	text-align: left;
-	font-size: 2em;
+	font-size: 1.3em;
 	margin: 0px 10%;
-	color: #ff6;
+	color: #656565;
 	clear: none;
 	display: block;
-	margin-left: 46%;
+	margin-left: 50%;
+	padding-bottom: 3%;
 }
 
 
